@@ -34,4 +34,4 @@ function multiply(a, b) {
 > LVL
 + B2
 > Practice
-+ I learn English for 6 years and I have a lot of practice with foreigners
++ I learn English for 8 years and I have a lot of practice with foreigners
