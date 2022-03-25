@@ -1,1 +1,1 @@
-https://clooney-dev.github.io/rsschool-cv/cv
+https://clooney-dev.github.io/rsschool-cv/
