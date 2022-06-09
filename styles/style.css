@@ -24,6 +24,14 @@ h1{
 a:hover{
     color: rgb(239, 92, 6); 
  }
+ img:hover{
+    background: rgba(125, 127, 125, 0.2);
+}
+
+ a{
+     text-decoration: none;
+     color: rgb(32, 185, 8)
+ }
  h2{
  display: inline;
  border-bottom: 3px solid #f9dd94
@@ -120,11 +128,13 @@ a:hover{
     content: "\2705";
 }
 .footer{
-    background-image:url(/assets/images/pexels-pixabay-270360.jpg);
-    background-size: cover;
+   background-image: url("/assets/images/program.jpg");
 }
 .copyright-info{
     color: aliceblue;
+}
+.git-link{
+    text-align: center;
 }
 
 
