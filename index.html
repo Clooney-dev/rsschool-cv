@@ -1,11 +1,149 @@
-<!DOCTYPE>
-
-<html></html>
-
-<head>CV#2. HTML, CSS & Git Basics</head>
-
-<meta>
-
-<title></title>
-
-<body></body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link href="/styles/style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="assets/icons/profile.svg" type="image/png" sizes="64x64">
+    <link rel="icon" href="assets/icons/profile.svg" type="image/png" sizes="32x32">
+    <link rel="icon" href="assets/icons/profile.svg" type="image/png" sizes="16x16">
+  </head>
+  <body>
+      <div class="container">
+          <header class="header">
+              <div class="header-container">
+              <nav class="nav">
+                  <span class="name">Evgeny Yakushev</span>
+                  <ul class="nav-element">
+                      <li class="nav-punkts">
+                          <a href="#me" class="link">My story</a>
+                      </li>
+                      <li class="nav-punkts">
+                          <a href="#skills" class="link">Skills</a>
+                      </li>
+                      <li class="nav-punkts">
+                          <a href="#projects" class="link">Projects</a>
+                      </li>
+                      <li class="nav-punkts">
+                          <a href="#education" class="link">Education</a>
+                      </li>
+                      <li class="nav-punkts">
+                          <a href="#contacts" class="link">Contacts</a>
+                      </li>
+                  </ul>
+              </nav>
+              </div>
+          </header>
+          <main class="main">
+              <div class="main-welcome">
+                  <section class="section">
+                      <div class="section-title">
+                          <div class="me">
+                          <h2>My Story</h2>
+                        </div>
+                      </div>
+                      <p id="me">My name is <span class="my-name">Evgeny</span> and I want to become a 
+                         JS Frontend developer.
+                          <br>
+                          I’m really interested in JS programming and learning all the latest technologies and frameworks.
+                          I know the basics of <span class="coding-languages">JS,CSS,HTML and GIT</span>.
+                          <br>
+                          I know how to work in team, 
+                          I have leader skills and I’m open to new opportunities and knowledges.
+                          <br>
+                          I don’t have experience in real work, but I want to get it.
+                      </p>
+                  </section>
+                </div>
+                <section class="section">
+                    <div class="section-title">
+                        <div class="skills">
+                            <h2>Skills</h2>
+                        </div>
+                        <ul class="skills-list" id="skills">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            <li>Git</li>
+                            <li>Russian<span class="language">[native]</span></li>
+                            <li>English<span class="language">[B2]</span></li>
+                            <li>German<span class="language">[A2]</span></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section-title">
+                        <div class="projects">
+                            <h2>Projects</h2>
+                        </div>
+                        <article class="article" id="projects">
+                            <div class="article-title">
+                                <div class="code">
+                                    <h3>Code</h3>
+                                </div>
+                            </div>
+                                <div class="code-example">
+                                    <code>
+                                        <span class="func">function</span> multiply(a, b) {
+                                            <br>
+                                            <span class="func">return</span> a * b<br>
+                                            } ​
+                                   </code>
+                            </div>
+                        </article>
+                        <div class="project-cv">
+                            <p>CV Project<a href="https://github.com/Clooney-dev/rsschool-cv"><span class="cv-link">CV</span></a></p>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section-title">
+                        <div class="education">
+                            <h2>Education</h2>
+                        </div>
+                        <ul class="education" id="education">
+                            <li>HTML, CSS Course by Fructcode</li>
+                            <li>Java Course</li>
+                            <li>Basics of JavaScript Course</li>
+                            <li>Basics of HTML & CSS Course</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section-title">
+                        <div class="contacts">
+                            <h2>Contacts</h2>
+                        </div>
+                        <ul class="li-contacts" id="contacts">
+                            <li>
+                                <img src="/assets/icons/email-svgrepo-com.svg" alt="email" width="20">
+                                 EvgeYaku@gmail.com
+                            </li>
+                            <li>
+                                <img src="/assets/icons/telegram-svgrepo-com.svg" alt="telegram" width="20">
+                                 @alicehexf
+                            </li>
+                            <li>
+                                <img src="/assets/icons/discord-v2-svgrepo-com.svg" alt="discord" width="20">
+                                 @hellatrigger#6666
+                            </li>
+                            <li>
+                                <img src="/assets/icons/github-svgrepo-com.svg" alt="github" width="20">
+                                  clooney-dev <a href="https://github.com/Clooney-dev">Github</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+          </main>
+          <footer class="footer">
+              <div class="end-info">
+                  <span class="copyright-info">©</span>
+                  <span class="copyright-info">2022</span>
+                  
+                      
+              </div>
+          </footer>
+      </div>
+  </body>
+</html>
