@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Kdam Thmor Pro'; 
-	src: url("/assets/fonts/KdamThmorPro-Regular.ttf"); 
+	src: url("/assets/fonts/kdamthmorproregular.ttf"); 
     font-weight: normal;
 }
 body{
@@ -48,7 +48,7 @@ a:hover{
     min-width: 1400px;
 }
 .header{
-    background-image:url(/assets/images/pexels-pixabay-270360.jpg);
+    background-image:url(/assets/images/code.jpg);
 }
 .nav{
     text-align: center;
