@@ -1,11 +1,187 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MyCV</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=JetBrains+Mono:100,200,300,regular,500,600,700,800,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <title>My CV</title>
 </head>
+
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 id="main_title"><a href="/">MY CV</a></h1>
+            <nav class="navbar">
+                <ul class="navbar_items">
+                    <li class="navbar_item"><a href="#info">My Story</a></li>
+                    <li class="navbar_item"><a href="#profile">Contact</a></li>
+                    <li class="navbar_item"><a href="#skill">Skills</a></li>
+                    <li class="navbar_item"><a href="#code">Code Example</a></li>
+                    <li class="navbar_item"><a href="#education">Education</a></li>
+                    <li class="navbar_item"><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <aside class="main_information">
+                <img class="profile_image" src="/src/assets/images/profile.jpg" alt="Profile Image" width="200"
+                    height="200">
+                <section class="info" id="info">
+                    <h2 id="name_title">Evgeny Yakushev</h2>
+                    <p id="opportunity_text">Front-End Developer</p>
+                </section>
+                <section class="profile" id="profile">
+                    <h2 id="profile_title">Biography</h2>
+                    <div class="underline_text"></div>
+                    <p class="profile_text">My name is Evgeny and I want to become a JS Frontend developer. I’m really
+                        interested
+                        in JS
+                        programming and
+                        learning all the latest technologies and frameworks.I know the basics of JS,CSS,HTML, I know how
+                        to use git,
+                        team development tools, I also know how to work in team, I have leader skills and I’m open to
+                        new
+                        opportunities and knowledges. I don’t have experience in real work, but I want to get it.</p>
+                </section>
+                <section class="contact" id="contact">
+                    <h2 id="contact_title">Contacts</h2>
+                    <div class="underline_text"></div>
+                    <ul class="contact_info">
+                        <li class="contact_info_item"><a href="https://discord.com/"><img
+                                    src="/src/assets/images/svg/discord2.svg" alt="Discord" width="20"
+                                    height="20"></a><span class="contact_info_text">falling#6666</span></li>
+                        <li class="contact_info_item"><a href="https://web.telegram.org/k/"><img
+                                    src="/src/assets/images/svg/telegram1.svg" alt="Telegram" width="25" height="25"
+                                    style="position: relative; right: 3px;"></a><span
+                                class="contact_info_text">@alicehexf</span>
+                        </li>
+                        <li class="contact_info_item"><a href="https://github.com/"><img
+                                    src="/src/assets/images/svg/github1.svg" alt="Github" width="20"
+                                    height="20"></a><span class="contact_info_text">clooney-dev</span></li>
+                    </ul>
+                </section>
+                <section class="skill" id="skill">
+                    <h2 id="skill_title">Skills</h2>
+                    <div class="underline_text"></div>
+                    <div class="skill_content">
+                        <ul class="skill_list">
+                            <li class="skill_list_item">HTML</li>
+                            <li class="skill_list_item">CSS</li>
+                            <li class="skill_list_item">JS</li>
+                            <li class="skill_list_item">Git</li>
+                            <li class="skill_list_item">Figma</li>
+                            <li class="skill_list_item"><a href="https://www.efset.org/cert/cvw6yc">English</a></li>
+                            <li class="skill_list_item">Russian</li>
+                            <li class="skill_list_item">German</li>
+                        </ul>
+                        <ul class="skill_list_progress">
+                            <li class="skill_list_progress_item">
+                                <div class="progress" style="width: 70%;"></div>
+                            </li>
+                            <li class="skill_list_progress_item">
+                                <div class="progress" style="width: 50%;"></div>
+                            </li>
+                            <li class="skill_list_progress_item">
+                                <div class="progress" style="width: 30%;"></div>
+                            </li>
+                            <li class="skill_list_progress_item">
+                                <div class="progress" style="width: 65%;"></div>
+                            </li>
+                            <li class="skill_list_progress_item">
+                                <div class="progress" style="width: 85%;"></div>
+                            </li>
+                            <li class="skill_list_progress_item">
+                                <div class="progress" style="width: 95%;"></div>
+                            </li>
+                            <li class="skill_list_progress_item">
+                                <div class="progress" style="width: 100%;"></div>
+                            </li>
+                            <li class="skill_list_progress_item">
+                                <div class="progress" style="width: 35%;"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </aside>
+            <aside class="additional_information">
+                <section class="education" id="education">
+                    <h2 id="education_title">Education</h2>
+                    <div class="underline_text_additional"></div>
+                    <div class="education_content">
+                        <ul class="education_list">
+                            <li class="education_item"><strong>Rolling Scopes School Stage#0</strong> <br> <span
+                                    class="education_item__year">2023-Until now</span></li>
+                            <li class="education_item"><strong>Java Corses</strong> <br> <span
+                                    class="education_item__year">2020-2021</span></li>
+                            <li class="education_item"><strong>Rolling Scopes School Stage#0</strong> <br> <span
+                                    class="education_item__year">2022-2023</span></li>
+                        </ul>
+                        <ul class="education_description">
+                            <li class="education_description_item">Course about Frontend Development and other
+                                web-technologies and frameworks</li>
+                            <li class="education_description_item">Course about Backend Development and other
+                                web-technologies and frameworks</li>
+                            <li class="education_description_item">Course about Frontend Development and other
+                                web-technologies and frameworks</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="code" id="code">
+                    <h2 id="code_title">Code Examples</h2>
+                    <div class="underline_text_code"></div>
+                    <h3 id="programe_name">Which color is the brightest?</h3>
+                    <div class="code_field">
+                        <pre style="position: relative; right: 245px;"><div class="programe_code">
+                            <span class="b294bb">function</span> <span class="de935f">brightest</span>(<span class="de935f">color</span>){ 
+                                <span class="col89b6c5">colors</span>.<span class="col81a2be">sort</span>((<span class="de935f">a</span>,<span class="de935f">b</span>) => { 
+                                    <span class="b294bb">return</span> compareRGB(<span class="col89b6c5">b</span>) - compareRGB(<span class="col89b6c5">a</span>); 
+                                });
+                                <span class="b294bb">return</span> <span class="col89b6c5">colors</span>[<span class="de935f">0</span>];
+                            }
+                            
+                            <span class="b294bb">function</span> <span class="de935f">compareRGB</span>(<span class="de935f">n</span>) {<br> 
+                                <span class="b294bb">let</span> <span class="de935f">R</span> = parseInt(<span class="col89b6c5">n</span>[<span class="de935f">1</span>] + <span class="col89b6c5">n</span>[<span class="de935f">2</span>], <span class="de935f">16</span>);
+                                <span class="b294bb">let</span> <span class="de935f">G</span> = parseInt(<span class="col89b6c5">n</span>[<span class="de935f">1</span>] + <span class="col89b6c5">n</span>[<span class="de935f">4</span>], <span class="de935f">16</span>);
+                                <span class="b294bb">let</span> <span class="de935f">B</span> = parseInt(<span class="col89b6c5">n</span>[<span class="de935f">1</span>] + <span class="col89b6c5">n</span>[<span class="de935f">6</span>], <span class="de935f">16</span>);
+                                <span class="b294bb">return</span> Math.<span class="col89b6c5">max</span>.<span class="col89b6c5">apply</span>(<span class="dc7069">null</span>, [<span class="col89b6c5">R</span>,<span class="col89b6c5">G</span>,<span class="col89b6c5">B</span>]);
+                                
+                            }
+                        </div>
+                    </pre>
+                    </div>
+                </section>
+                <section class="projects" id="projects">
+                    <h2 id="projects_title">My projects</h2>
+                    <div class="underline_text_projects"></div>
+                    <ul class="projects_list">
+                        <li class="projects_list_item"><span class="projects_list_item_text">Momentum</span><a
+                                href="https://shorturl.at/hmr35"><img src="./assets/images/momentum.png"
+                                    alt="Momentum App" width="100%" height="300" class="projects_list_item_image"></a>
+                        </li>
+                        <li class="projects_list_item"><span class="projects_list_item_text">Travelling Site</span><a
+                                href="https://shorturl.at/hoX37"><img src="./assets/images/travel.jpg"
+                                    alt="Travelling Site" width="100%" height="300"
+                                    class="projects_list_item_image"></a></li>
+                    </ul>
+                </section>
+            </aside>
+        </main>
+        <footer class="footer">
+            <a href="https://rs.school/js/" class="footer_link"><img src="https://rs.school/images/rs_school_js.svg"
+                    alt="RSS" width="84" height="84"></a>
+            <span class="footer_year">&reg2023</span>
+            <a href="https://github.com/Clooney-dev" class="footer_link"><img
+                    src="./assets/images/svg/icons8-github.svg" width="48" height="48" alt="GITHUB"></img></a>
+        </footer>
+    </div>
+
 </body>
+
 </html>
