@@ -361,10 +361,12 @@ html {
 }
 
 .programe_code {
+  display: block;
   font-family: "Source Code Pro", sans-serif;
   font-style: normal;
   font-weight: 500;
   color: #ffffff;
+  margin-left: -250px;
 }
 
 .underline_text_projects::before {
