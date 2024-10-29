@@ -440,3 +440,28 @@ html {
   color: inherit;
   text-decoration: inherit;
 }
+
+.progress_70 {
+   width: 35%;
+}
+.progress_50 {
+   width: 50%;
+}
+.progress_30 {
+   width: 30%;
+}
+.progress_65 {
+   width: 65%;
+}
+.progress_85 {
+   width: 85%;
+}
+.progress_95 {
+   width: 95%;
+}
+.progress_100 {
+   width: 100%;
+}
+.progress_35 {
+   width: 35%;
+}
